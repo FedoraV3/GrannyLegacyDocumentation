@@ -1,0 +1,19 @@
+title: grannylegacy docs
+description: reverse engineering findings from grannylegacy
+remote_theme: just-the-docs/just-the-docs
+url: https://fedorav3.github.io
+baseurl: /GrannyLegacyDocumentation
+
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  github:
+    - https://github.com/FedoraV3/GrannyLegacyDocumentation
+
+exclude:
+  - README.md
+  - notes/
+  - .gitignore
+  - .gitkeep
