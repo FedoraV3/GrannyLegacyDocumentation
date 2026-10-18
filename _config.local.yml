@@ -1,0 +1,5 @@
+# local preview only, uses the installed gem instead of downloading the theme
+remote_theme: null
+theme: just-the-docs
+plugins: []
+url: ""

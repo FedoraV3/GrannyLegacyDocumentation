@@ -1,6 +1,8 @@
 title: grannylegacy docs
 description: reverse engineering findings from grannylegacy
 remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
 url: https://fedorav3.github.io
 baseurl: /GrannyLegacyDocumentation
 
@@ -17,3 +19,7 @@ exclude:
   - notes/
   - .gitignore
   - .gitkeep
+  - Gemfile
+  - _config.local.yml
+  - Gemfile.lock
+  - vendor/
