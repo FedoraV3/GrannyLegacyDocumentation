@@ -30,3 +30,6 @@ vendor/
 # editor local history
 .history/
 .vscode/
+
+# obsidian
+.obsidian/
