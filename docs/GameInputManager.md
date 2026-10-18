@@ -176,4 +176,7 @@ QUIT_GAME:
 - This doesn't do anything or handle anything about game inputs. It is a simple protection implemented into the game scene, MainMenu.
 
 # Purpose
-It's main purpose is to check whether the user owns the game or not by using the C# wrapper that calls the native steam_api64.dll, found at path\to\Granny Legacy_Data\Plugins\x86_64. Might be named GameInputManager just as bait so that people will skip it while trying to crack it.
+It's main purpose is to check whether the user owns the game or not by using the C# wrapper that calls the native steam_api64.dll, found at path\to\Granny Legacy_Data\Plugins\x86_64. Might be named GameInputManager just as bait so that people will skip it while trying to crack it. 
+
+I deliberately left out the other functions as they do not serve any purpose, GameInputManager$$Update just has il2cpp noise, but just calls:
+> Steamworks.SteamClient$$RunCallbacks(method: nullptr);
