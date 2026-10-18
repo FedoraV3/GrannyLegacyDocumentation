@@ -1,0 +1,22 @@
+﻿# game binaries and extracted assets (do not commit)
+*.dll
+*.exe
+*.so
+*.bin
+*.pak
+*.assets
+*.bundle
+
+# disassembler databases
+*.i64
+*.idb
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+
+# misc
+.DS_Store
+Thumbs.db
+*.tmp
