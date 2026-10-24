@@ -1,5 +1,5 @@
 ---
-title: AI Granny Start
+title: Start
 parent: AI Granny
 ---
 # Start
