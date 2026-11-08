@@ -1,12 +1,16 @@
-﻿# GrannyLegacy Documentation
+# Granny Legacy Documentation
 
-Reverse engineering findings for GrannyLegacy.
+Reverse engineering findings for Granny Legacy, documented as one cleaned-up C# source file per class in `src/`, rendered by Doxygen.
 
-## Contents
+**Reminder:** hardcoded offsets break between versions. Prefer finding things through the game assemblies.
 
-- `docs/` - write-ups and findings
-- `notes/` - scratch notes and research
+## Conventions
 
-## Status
+- One file per class: `src/<Class>.cs`, with fields, methods and definitions in the C# class layout.
+- Every class, field and method gets a short `/// @brief`. Use `@details` for behaviour and `@note` for modding tips.
+- Field offsets go in a trailing `///< offset 0x..` comment. Methods not yet reverse engineered are empty stubs.
+- Scratch research goes in `notes/`.
 
-Work in progress.
+## Build
+
+Install [Doxygen](https://www.doxygen.nl/), then run `serve.bat`. Output is `doxygen/html/index.html`.
