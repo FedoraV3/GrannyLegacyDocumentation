@@ -1,11 +1,11 @@
 PROJECT_NAME           = "Granny Legacy"
 INPUT                  = src README.md
-FILE_PATTERNS          = *.cs *.md
+FILE_PATTERNS          = *.cpp *.md
 OUTPUT_DIRECTORY       = doxygen
 USE_MDFILE_AS_MAINPAGE = README.md
-OPTIMIZE_OUTPUT_JAVA   = YES
 EXTRACT_ALL            = YES
 EXTRACT_PRIVATE        = YES
 JAVADOC_AUTOBRIEF      = YES
 SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
 GENERATE_LATEX         = NO
